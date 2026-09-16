@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Leaderboard.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260915210157_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20260915210442_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
